@@ -5,7 +5,7 @@ Integrantes: Antonella Aiko, Davi Mendes, Izabela Souza, Marcus Oliver
 
 ## Descrição do Projeto
 
-Este projeto consiste em um aplicativo móvel desenvolvido no **MIT App Inventor** que oferece uma carteirinha digital de saúde pessoal. O objetivo do app é ajudar o usuário a organizar, armazenar e acessar de forma prática e segura informações essenciais sobre sua saúde. O aplicativo facilita o gerenciamento diário da saúde, permitindo o registro de dados relevantes e a consulta rápida dessas informações, além de melhorar a comunicação com profissionais de saúde, principalmente em emergências.
+Este projeto consiste em um aplicativo móvel desenvolvido no **Expo DEV** que oferece uma carteirinha digital de saúde pessoal. O objetivo do app é ajudar o usuário a organizar, armazenar e acessar de forma prática e segura informações essenciais sobre sua saúde. O aplicativo facilita o gerenciamento diário da saúde, permitindo o registro de dados relevantes e a consulta rápida dessas informações, além de melhorar a comunicação com profissionais de saúde, principalmente em emergências.
 
 ---
 
@@ -27,8 +27,8 @@ Este projeto consiste em um aplicativo móvel desenvolvido no **MIT App Inventor
 
 ## Tecnologias Utilizadas
 
-- MIT App Inventor
-- Banco de dados local: TinyDB 
+- Expo DEV
+- Banco de dados local: HeidiSQL
 
 ---
 
