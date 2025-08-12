@@ -1,4 +1,4 @@
-# HistoryHealth - Projeto de PAM do 2° DS PI com o tema de cuidar da saúde 
+f# HistoryHealth - Projeto de PAM do 2° DS PI com o tema de cuidar da saúde 
 
 Integrantes: Antonella Aiko, Davi Mendes, Izabela Souza, Marcus Oliver
 
@@ -55,7 +55,7 @@ Este projeto consiste em um aplicativo móvel desenvolvido no **Expo DEV** que o
 1. **Usabilidade:** Interface amigável, clara e fácil de navegar para usuários de todas as idades.
 2. **Segurança:** Os dados do usuário ficam armazenados localmente no dispositivo; não há compartilhamento automático com servidores externos.
 3. **Performance:** O aplicativo deve funcionar sem atrasos perceptíveis no armazenamento e recuperação dos dados.
-4. **Compatibilidade:** Deve ser compatível com aparelhos que suportem o MIT App Inventor, priorizando dispositivos Android.
+4. **Compatibilidade:** Deve ser compatível com aparelhos que suportem o Expo DEV, priorizando dispositivos Android.
 5. **Portabilidade:** Dados armazenados localmente, permitindo acesso rápido.
 6. **Manutenibilidade:** Código modular e documentado para facilitar futuras atualizações ou adições de funcionalidades.
 7. **Confiabilidade:** As informações inseridas pelo usuário devem ser preservadas mesmo após o fechamento e reabertura do app.
