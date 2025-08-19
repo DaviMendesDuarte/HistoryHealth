@@ -1,79 +1,123 @@
-f# HistoryHealth - Projeto de PAM do 2° DS PI com o tema de cuidar da saúde 
+# 🏥 HistoryHealth  
+### Projeto de PAM do 2° DS PI com o tema de cuidar da saúde  
 
-Integrantes: Antonella Aiko, Davi Mendes, Izabela Souza, Marcus Oliver
-
-
-## Descrição do Projeto
-
-Este projeto consiste em um aplicativo móvel desenvolvido no **Expo DEV** que oferece uma carteirinha digital de saúde pessoal. O objetivo do app é ajudar o usuário a organizar, armazenar e acessar de forma prática e segura informações essenciais sobre sua saúde. O aplicativo facilita o gerenciamento diário da saúde, permitindo o registro de dados relevantes e a consulta rápida dessas informações, além de melhorar a comunicação com profissionais de saúde, principalmente em emergências.
-
----
-
-## Funcionalidades principais
-
-- Registro e consulta de dados pessoais básicos (nome, data de nascimento, sexo, tipo sanguíneo).
-- Histórico de sintomas (queixas recentes e crônicas).
-- Registro de doenças e condições crônicas, com datas e observações.
-- Cadastro de alergias (medicamentos, alimentos e outras substâncias).
-- Controle de medicamentos em uso (nome, dosagem, horários, duração).
-- Registro de exames clínicos (resultados e datas).
-- Histórico de consultas médicas (datas, especialidades, observações).
-- Cadastro de contatos de emergência para situações críticas.
-- Informações sobre plano de saúde ou convênio.
-- Registro de notas e observações gerais (restrições, recomendações médicas).
-- Alertas e lembretes para tomar medicamentos e realizar consultas.
+👩‍💻 **Integrantes:**  
+- Antonella Aiko  
+- Davi Mendes  
+- Izabela Souza  
+- Marcus Oliver  
 
 ---
 
-## Tecnologias Utilizadas
+## 📖 Descrição do Projeto  
 
-- Expo DEV
-- Banco de dados local: HeidiSQL
+O **HistoryHealth** é um aplicativo móvel desenvolvido no **Expo DEV** que funciona como uma **carteirinha digital de saúde pessoal**.  
 
----
-
-## Requisitos Funcionais
-
-1. O aplicativo deve permitir o cadastro e edição dos dados pessoais básicos do usuário.
-2. O usuário deve poder registrar, editar e visualizar seu histórico de sintomas.
-3. O sistema deve possibilitar o cadastro de doenças e condições crônicas, com possibilidade de incluir observações.
-4. O usuário poderá cadastrar alergias, diferenciando tipos (medicamentos, alimentos etc.).
-5. O aplicativo deve armazenar informações detalhadas sobre medicamentos em uso (nome, dosagem, horário e duração).
-6. É necessário registrar o histórico completo de vacinação, incluindo datas e futuras doses.
-7. O app deve permitir o cadastro e consulta dos resultados e datas de exames clínicos importantes.
-8. O usuário poderá registrar consultas médicas realizadas, com data, especialidade e observações.
-9. O sistema deve disponibilizar um espaço para cadastro de contatos de emergência.
-10. Deve ser possível cadastrar dados do plano de saúde ou convênio.
-11. O app deve permitir o registro de notas e observações gerais.
-12. O sistema deve enviar alertas e lembretes para o usuário referente a medicamentos e consultas.
-13. O app deve apresentar uma interface simples, intuitiva e acessível para todos os públicos.
+👉 Seu objetivo é ajudar o usuário a **organizar, armazenar e acessar** informações essenciais sobre sua saúde de forma prática e segura.  
+O app também facilita a comunicação com profissionais de saúde, especialmente em **situações de emergência**.  
 
 ---
 
-## Requisitos Não Funcionais
+## ✨ Funcionalidades principais  
 
-1. **Usabilidade:** Interface amigável, clara e fácil de navegar para usuários de todas as idades.
-2. **Segurança:** Os dados do usuário ficam armazenados localmente no dispositivo; não há compartilhamento automático com servidores externos.
-3. **Performance:** O aplicativo deve funcionar sem atrasos perceptíveis no armazenamento e recuperação dos dados.
-4. **Compatibilidade:** Deve ser compatível com aparelhos que suportem o Expo DEV, priorizando dispositivos Android.
-5. **Portabilidade:** Dados armazenados localmente, permitindo acesso rápido.
-6. **Manutenibilidade:** Código modular e documentado para facilitar futuras atualizações ou adições de funcionalidades.
-7. **Confiabilidade:** As informações inseridas pelo usuário devem ser preservadas mesmo após o fechamento e reabertura do app.
-8. **Escalabilidade:** Arquitetura que permita incluir novas funcionalidades ou integrar demais módulos no futuro.
-
----
-
-## Motivação
-
-O projeto nasce da necessidade de solucionar um problema comum no cotidiano: a dificuldade de manter as informações de saúde organizadas, acessíveis e atualizadas, algo que impacta diretamente no cuidado pessoal, prevenção e emergências médicas. A carteirinha digital permitirá mais autonomia e segurança para o usuário.
+- 🧍 Registro e consulta de **dados pessoais** (nome, nascimento, sexo, tipo sanguíneo).  
+- 🤒 Histórico de **sintomas** (recentes e crônicos).  
+- 🩺 Registro de **doenças e condições crônicas** com observações.  
+- ⚠️ Cadastro de **alergias** (medicamentos, alimentos, substâncias).  
+- 💊 **Controle de medicamentos** em uso (nome, dosagem, horários, duração).  
+- 🧪 Registro de **exames clínicos** (resultados e datas).  
+- 📅 Histórico de **consultas médicas** (datas, especialidades, observações).  
+- 📞 Cadastro de **contatos de emergência**.  
+- 🏥 Informações sobre **plano de saúde/convênio**.  
+- 📝 **Notas e observações gerais** (restrições, recomendações médicas).  
+- ⏰ **Alertas e lembretes** para medicamentos e consultas.  
 
 ---
 
-## Como usar
+## 🛠️ Tecnologias Utilizadas  
 
-1. Abra o aplicativo e cadastre seus dados pessoais básicos.
-2. Registre suas alergias, doenças, medicamentos em uso e histórico de vacinação.
-3. Insira os resultados dos exames e detalhes das consultas médicas.
-4. Configure os contatos de emergência.
-5. Ative os alertas e lembretes conforme seu tratamento e consultas.
-6. Mantenha seus dados atualizados para garantir um acompanhamento eficiente da sua saúde.
+- ⚛️ **Expo DEV**  
+- 🗄️ **Banco de dados local: HeidiSQL**  
+
+---
+
+## ✅ Requisitos Funcionais  
+
+1. 👤 Cadastro e edição de dados pessoais.  
+2. 📋 Registro, edição e visualização de sintomas.  
+3. 🩺 Cadastro de doenças e condições crônicas.  
+4. ⚠️ Cadastro de alergias com diferenciação de tipos.  
+5. 💊 Armazenamento de informações detalhadas sobre medicamentos.  
+6. 💉 Registro completo de vacinação.  
+7. 🧪 Cadastro e consulta de exames clínicos.  
+8. 📅 Registro de consultas médicas.  
+9. 📞 Espaço para contatos de emergência.  
+10. 🏥 Cadastro de plano de saúde ou convênio.  
+11. 📝 Notas e observações gerais.  
+12. 🔔 Alertas e lembretes de medicamentos/consultas.  
+13. 🎨 Interface simples, intuitiva e acessível.  
+
+---
+
+## ⚙️ Requisitos Não Funcionais  
+
+1. 🖥️ **Usabilidade:** interface clara e amigável.  
+2. 🔒 **Segurança:** dados armazenados localmente e protegidos.  
+3. ⚡ **Performance:** sem atrasos perceptíveis.  
+4. 📱 **Compatibilidade:** foco em dispositivos Android via Expo DEV.  
+5. 🗂️ **Portabilidade:** dados acessíveis rapidamente.  
+6. 🛠️ **Manutenibilidade:** código modular e documentado.  
+7. 🧷 **Confiabilidade:** dados preservados mesmo após fechar o app.  
+8. 🚀 **Escalabilidade:** pronto para futuras expansões.  
+
+---
+
+## 📌 Necessidades do Aplicativo  
+
+Para que o **HistoryHealth** funcione corretamente, são necessárias algumas condições técnicas e de uso:  
+
+### 🔧 Necessidades Técnicas  
+- 📱 Dispositivo compatível com **Expo DEV** (Android prioritário).  
+- 🌐 **Conexão com a internet** para sincronizar os dados com o banco remoto.  
+- 🗄️ **Banco de dados online** (MySQL, PostgreSQL ou Firebase) para armazenamento seguro.  
+- 🔑 **Sistema de login e autenticação** para acesso individual dos usuários.  
+- 🔔 **Notificações** ativas no celular para lembretes de medicamentos e consultas.  
+
+### 📋 Necessidades Funcionais  
+- Cadastro de **dados pessoais** (nome, nascimento, sexo, tipo sanguíneo).  
+- Registro de **sintomas, doenças crônicas, alergias, vacinação, consultas e exames**.  
+- Inserção de **contatos de emergência** e informações sobre plano de saúde/convênio.  
+- Área para **notas e observações médicas**.  
+- **Alertas automáticos** para acompanhamento da saúde.  
+
+### 🛡️ Necessidades Não Funcionais  
+- Interface **simples, intuitiva e acessível** para qualquer idade.  
+- **Segurança dos dados**, com criptografia e proteção de informações médicas.  
+- **Alto desempenho**, sem travamentos durante uso.  
+- **Confiabilidade:** dados preservados mesmo após logout ou troca de dispositivo.  
+- **Escalabilidade:** suporte para novas funções no futuro.  
+
+### ⚕️ Necessidades do Usuário  
+- O usuário deve **manter seus dados sempre atualizados**.  
+- Para informações mais precisas (exames, diagnósticos, doenças crônicas), é recomendável o uso de **laudos médicos ou relatórios de consultas** ao registrar os dados.  
+
+---
+
+## 💡 Motivação  
+
+Muitas pessoas têm dificuldade em manter suas **informações de saúde organizadas e acessíveis**.  
+O HistoryHealth surge para resolver esse problema, promovendo **autonomia, segurança e prevenção** em situações cotidianas e emergenciais.  
+
+---
+
+## 📲 Como usar  
+
+1. 👤 Cadastre seus dados pessoais.  
+2. ⚠️ Registre suas **alergias, doenças, medicamentos e vacinação**.  
+3. 🧪 Insira **exames clínicos e consultas médicas**.  
+4. 📞 Configure **contatos de emergência**.  
+5. 🔔 Ative **alertas e lembretes** para consultas e medicamentos.  
+6. 🔄 Mantenha os dados sempre atualizados para um acompanhamento eficiente.  
+
+---
+✨ **HistoryHealth: cuidando da sua saúde de forma prática e inteligente!**  
